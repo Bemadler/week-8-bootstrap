@@ -1,0 +1,73 @@
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+}
+.container.container-upper{
+    background-color: lightgrey;
+    margin-top: 20px;
+    padding: 40px;
+}
+.card-img-top{
+    width: 200px;
+    height: 135px;
+    margin-top: 20px;
+    background-color: grey;
+}
+.card{
+    display: flex;
+    justify-content: space-between;
+    margin-right: 15px;
+    margin-left: 15px;
+    margin-top: 20px;
+    align-self: center;
+    align-items: center;
+}
+.card button{
+    display: flex;
+    align-self: center;
+    align-items: center;
+}
+.footer{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: darkgrey;
+    padding: 10px;
+}
+
+.footer-text{
+    color: white;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.navbar-name{
+    color: white;
+    margin: 0; 
+}
+.list-inline{
+    display: flex;
+    margin:0;
+    padding: 0;
+    list-style: none;
+}
+.list-inline-item{
+    margin: 0 10px;
+}
+.list-inline-item a{
+    color: white;
+    text-decoration: none;
+}
+.list-inline-item a:hover{
+    color: rgb(209, 15, 15);
+}
+.btn.btn-primary:hover{
+    color: rgb(209, 15, 15);
+}
